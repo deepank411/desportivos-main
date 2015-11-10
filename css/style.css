@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Exo);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	/*background: #fff;*/
+	color: #fff;
+	font-weight: 200;
+	font-size: 1em;
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+	font-weight: 600;
+}
+
+a:hover, a:focus {
+	color: #debcc3;
+}
+
+section {
+	padding: 1em;
+	text-align: center;
+	/*position: absolute;*/
+	height:100%;
+}
+
+section.about{
+	background-image: url('../img/about.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+
+section.gallery{
+	background-image: url('../img/gallery.png');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+
+#about h1{
+	color: #fff;
+	font-weight: 600;
+	font-size: 3em;
+	font-family: 'Oswald', sans-serif;
+}
+#about p{
+	font-size: 1.4em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+.thin{
+	font-weight: 100;
+}
+#mascot h1{
+	font-family: 'Bangers', sans-serif;
+	font-size: 3em;
+	letter-spacing: 0.1em;
+}
+#mascot p{
+	font-size: 1.2em;
+	font-family: 'Exo', sans-serif;
+}
+
+#campus h1, #gallery h1{
+	margin: 0;
+}
+
+section.campus h1{
+	font-family: 'Abel', sans-serif;
+	font-size: 4em;
+	color: #804518;
+}
+
+section.mascot{
+	background-image: url('../img/4.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+
+section.gallery{
+	background-color: #d8583a;
+}
+#sponsors h1{
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3em;
+}
+#sponsors{
+   background-color: #fff;
+   height: auto;
+}
+#sponsors img{
+   height: 100px;
+   width: 150px;
+}
+
+
+/* Header */
+.home-header {
+	z-index: 1000;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	text-align: center;
+	max-width: 500px;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.home-header h1 {
+	margin: 0;
+	font-weight: 200;
+	font-size: 3em;
+	line-height: 1;
+}
+
+.home-header h1 span {
+	display: block;
+	padding: 0.5em 0 0.6em 0.1em;
+	font-size: 60%;
+	line-height: 1.2;
+}
+
+@media screen and (max-width: 25em) {
+
+	body {
+		font-size: 90%;
+	}
+
+}
