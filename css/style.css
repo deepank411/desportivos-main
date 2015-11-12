@@ -45,6 +45,10 @@ a:hover, a:focus {
 	color: #debcc3;
 }
 
+button:focus {
+	outline: none;
+}
+
 section {
 	padding: 1em;
 	text-align: center;
@@ -76,7 +80,7 @@ section.gallery{
 	font-family: 'Oswald', sans-serif;
 }
 #about p{
-	font-size: 1.4em;
+	font-size: 1.2em;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 }
@@ -91,6 +95,9 @@ section.gallery{
 #mascot p{
 	font-size: 1.2em;
 	font-family: 'Exo', sans-serif;
+}
+#campus{
+	background-color: #FED83E;
 }
 
 #campus h1, #gallery h1{
@@ -158,10 +165,8 @@ section.gallery{
 	line-height: 1.2;
 }
 
-@media screen and (max-width: 25em) {
-
+@media screen and (max-width: 40em) {
 	body {
-		font-size: 90%;
+		font-size: 80%;
 	}
-
 }
