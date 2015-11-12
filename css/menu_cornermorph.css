@@ -9,7 +9,7 @@
 	height: 2.25em;
 	border: none;
 	font-size: 1.5em;
-	color: #373a47;
+	color: #BDC3C7;
 	background: transparent;
 }
 
@@ -49,9 +49,8 @@
 
 .menu {
 	height: 100%;
-	opacity: 0;
 	font-size: 0.65em;
-	color: #64697d;
+	color: #446CB3;
 	text-align: right;
 }
 
@@ -65,14 +64,14 @@
 .link-list {
 	padding: 1.35em 0;
 	margin: 0 0.75em;
-	border-bottom: 3px solid rgba(125,129,148,0.2);
-	border-top: 3px solid rgba(125,129,148,0.2);
+	border-bottom: 3px solid #446CB3;
+	border-top: 3px solid #446CB3;
 }
 
 .link-list a {
 	display: block;
 	margin: 0.25em 0;
-	color: #7d8194;
+	color: #446CB3;
 	padding: 0.5em 1.5em;
 }
 

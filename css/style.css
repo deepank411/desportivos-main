@@ -55,6 +55,9 @@ section {
 	/*position: absolute;*/
 	height:100%;
 }
+section.home{
+	padding: 0em;
+}
 
 section.about{
 	background-image: url('../img/about.jpg');

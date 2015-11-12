@@ -36,6 +36,6 @@
 		classie.remove(overlay, 'on-overlay');
 		classie.remove(wrapper, 'opened-nav');
 	}
-	document.addEventListener('click', closeNav);
-
+   //document.addEventListener('click', closeNav);
+	// prevent close on click outside
 })();

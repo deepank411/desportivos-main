@@ -88,10 +88,14 @@ html, body, .container {
 
 .boxgallery > nav span.prev {
 	left: 0;
+	visibilty: hidden;
+	display: none;
 }
 
 .boxgallery > nav span.next {
 	right: 0;
+	visibilty: hidden;
+	display: none;
 }
 
 .boxgallery > nav i {

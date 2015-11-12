@@ -22,6 +22,7 @@
 
 .nav-arrows {
 	display: none;
+	visibility: hidden;
 }
 
 .nav-arrows a {
