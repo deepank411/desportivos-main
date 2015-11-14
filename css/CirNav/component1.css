@@ -15,7 +15,7 @@
   height: 26em;
   overflow: hidden;
   position: fixed;
-  z-index: 10;
+  z-index: 1000;
   bottom: -13em;
   left: 50%;
   border-radius: 50%;
@@ -70,14 +70,14 @@
   padding-bottom: 1.4em;
   height: 3.5em;
   width: 3.5em;
-  background-color: #ecf0f1;
+  background-color: #fff;
   position: fixed;
   left: 50%;
   margin-left: -1.75em;
   bottom: -1.75em;
   border-radius: 50%;
   cursor: pointer;
-  z-index: 11;
+  z-index: 1001;
 }
 
 .cn-button:hover,

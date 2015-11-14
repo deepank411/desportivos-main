@@ -76,6 +76,16 @@ section.gallery{
 	background-size: cover;
 }
 
+a.register{
+	border: solid #fff 2px;
+	padding: 7px;
+	border-radius: 10px;
+}
+a.register:hover{
+	background-color: #fff;
+	color: #446CB3;
+}
+
 #about h1{
 	color: #fff;
 	font-weight: 600;
