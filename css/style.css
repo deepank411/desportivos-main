@@ -96,8 +96,8 @@ a.register:hover{
 	font-size: 1.2em;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-	width: 60%;
-	margin-left: 20%;
+	width: 80%;
+	margin-left: 10%;
 }
 .thin{
 	font-weight: 100;
@@ -110,8 +110,8 @@ a.register:hover{
 #mascot p{
 	font-size: 1.2em;
 	font-family: 'Exo', sans-serif;
-	width: 60%;
-	margin-left: 20%;
+	width: 80%;
+	margin-left: 10%;
 }
 #campus{
 	background-color: #FED83E;
@@ -153,7 +153,6 @@ section.gallery{
    width: 150px;
 }
 
-
 /* Header */
 .home-header {
 	z-index: 1000;
@@ -185,5 +184,9 @@ section.gallery{
 @media screen and (max-width: 40em) {
 	body {
 		font-size: 80%;
+	}
+	.share, .menu-wrap, .menu-button{
+		visibility: hidden;
+		/*display: none;*/
 	}
 }

@@ -1,0 +1,97 @@
+.share {
+  position: fixed;
+   top: 50%;
+   right: 0;
+	z-index: 3001;
+	margin: 1em;
+	padding: 0;
+	width: 0em;
+	height: 0.5em;
+	border: none;
+	font-size: 1.5em;
+	color: #373a47;
+	background: transparent;
+}
+
+.share-button,
+.share-toggle-button {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  /*top: 50%;*/
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: #ccc;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.share-button:hover,
+.share-toggle-button:hover {
+  color: #fff;
+}
+
+.share-button {
+  font-size: 30px;
+  background: #3498db;
+  -webkit-transform: scale(0.95, 0.95);
+  transform: scale(0.95, 0.95);
+  color: #222;
+}
+
+.share-button.facebook{
+   background-color: #3b5998;
+   color: #fff;
+}
+.share-button.facebook:hover{
+   background-color: #fff;
+   color: #3b5998;
+}
+
+.share-button.twitter{
+   background-color: #4099ff;
+   color: #fff;
+}
+.share-button.twitter:hover{
+   background-color: #fff;
+   color: #4099ff;
+}
+
+.share-button.youtube{
+   background-color: #cd201f;
+   color: #fff;
+}
+.share-button.youtube:hover{
+   background-color: #fff;
+   color: #cd201f;
+}
+
+.share-button.instagram{
+   background-color: #125688;
+   color: #fff;
+}
+.share-button.instagram:hover{
+   background-color: #fff;
+   color: #125688;
+}
+
+.share-toggle-button {
+  z-index: 9;
+  background: #27ae60;
+  font-size: 20px;
+}
+.share-toggle-button:hover{
+   cursor: pointer;
+}
+
+.share-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
