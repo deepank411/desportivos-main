@@ -60,7 +60,7 @@ section.home{
 }
 
 section.about{
-	background-image: url('../img/about.jpg');
+	background-image: url('../images/about.jpg');
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,7 +69,7 @@ section.about{
 }
 
 section.gallery{
-	background-image: url('../img/gallery.png');
+	background-image: url('../images/gallery.png');
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -83,7 +83,7 @@ a.register{
 }
 a.register:hover{
 	background-color: #fff;
-	color: #446CB3;
+	color: #c0392b;
 }
 
 #about h1{
@@ -96,6 +96,8 @@ a.register:hover{
 	font-size: 1.2em;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
+	width: 60%;
+	margin-left: 20%;
 }
 .thin{
 	font-weight: 100;
@@ -108,6 +110,8 @@ a.register:hover{
 #mascot p{
 	font-size: 1.2em;
 	font-family: 'Exo', sans-serif;
+	width: 60%;
+	margin-left: 20%;
 }
 #campus{
 	background-color: #FED83E;
@@ -124,7 +128,7 @@ section.campus h1{
 }
 
 section.mascot{
-	background-image: url('../img/4.jpg');
+	background-image: url('../images/4.jpg');
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
