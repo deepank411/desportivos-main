@@ -75,6 +75,26 @@ section.gallery{
     -o-background-size: cover;
 	background-size: cover;
 }
+section.contact{
+	background-color: #e74c3c;
+}
+section.contact h1{
+	color: #fff;
+	font-weight: 600;
+	font-size: 3em;
+}
+#contact p.tag{
+	font-size: 1.5em;
+	line-height: 1.6em;
+}
+#contact p{
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+#map{
+	/*width: 100%;*/
+	height: 40%;
+}
 
 a.register{
 	border: solid #fff 2px;

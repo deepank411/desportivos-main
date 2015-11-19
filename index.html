@@ -34,6 +34,7 @@
 				<a href="#mascot"><span>Meet Vector</span></a>
 				<a href="#campus"><span>Campus Ambassador</span></a>
 				<a href="#gallery"><span>Photo Memoirs</span></a>
+				<a href="#contact"><span>Contact Us</span></a>
 			</div>
 		</nav>
 	</div>
@@ -121,6 +122,16 @@
 			</div>
 		</div>
 	</section>
+	<section id="contact" class="contact">
+		<div class="container">
+			<h1>Reach Us</h1>
+			<div id="map"></div><br>
+			<p class="tag">Email</p>
+			<p>desportivos.lnmiit@gmail.com</p>
+			<p class="tag">Contact</p>
+			<p>+91-1234567890</p>
+		</div>
+	</section>
 
 	<div class="component">
 		<button class="cn-button" id="cn-button">+</button>
@@ -170,5 +181,43 @@
 	<script src="js/Events/vendors/TweenMax.min.js"></script>
 	<script src="js/sharev.js"></script>
 	<!-- <script src="js/autosponslider.js"></script> -->
+
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+	<script type="text/javascript">
+		// When the window has finished loading create our google map below
+		google.maps.event.addDomListener(window, 'load', init);
+
+		function init() {
+		   // Basic options for a simple Google Map
+		   // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+		   var mapOptions = {
+		      // How zoomed in you want the map to start at (always required)
+		      zoom: 13,
+
+		      // The latitude and longitude to center the map (always required)
+		      center: new google.maps.LatLng(26.935588, 75.921596), // New York
+
+		      // How you would like to style the map.
+		      // This is where you would paste any style found on Snazzy Maps.
+		      styles:
+		      [{"featureType":"water","stylers":[{"visibility":"on"},{"color":"#b5cbe4"}]},{"featureType":"landscape","stylers":[{"color":"#efefef"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#83a5b0"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#bdcdd3"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#e3eed3"}]},{"featureType":"administrative","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"road"},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{},{"featureType":"road","stylers":[{"lightness":20}]}]
+		   };
+
+		   // Get the HTML DOM element that will contain your map
+		   // We are using a div with id="map" seen below in the <body>
+		   var mapElement = document.getElementById('map');
+
+		   // Create the Google Map using our element and options defined above
+		   var map = new google.maps.Map(mapElement, mapOptions);
+
+		   // Let's also add a marker while we're at it
+		   var marker = new google.maps.Marker({
+		      position: new google.maps.LatLng(26.935588, 75.921596),
+		      map: map,
+		      title: 'Map, LNMIIT!'
+		   });
+		}
+	</script>
 </body>
 </html>
