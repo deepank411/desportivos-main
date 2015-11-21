@@ -112,6 +112,9 @@
 .card__copy p{
 	font-size: 1.2em;
 }
+.card__copy li{
+	letter-spacing: 2px;
+}
 .card__copy p, .card__copy li, .card__copy h3{
 	font-family: 'Oswald', sans-serif;
 }
