@@ -89,6 +89,9 @@ section.contact h1{
 	/*line-height: 1.5em;*/
 	font-family: 'Exo', sans-serif;
 }
+#contact p.tag{
+	font-size: 1.4em;
+}
 #map{
 	width: 70%;
 	height: 55%;
@@ -208,5 +211,13 @@ section.gallery{
 	.share{
 		visibility: hidden;
 		/*display: none;*/
+	}
+	.mascot-text{
+		visibility: hidden;
+	}
+	#map{
+		width: 90%;
+		height: 55%;
+		margin-left: 5%;
 	}
 }
