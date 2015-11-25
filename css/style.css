@@ -77,6 +77,11 @@ section.gallery{
 }
 section.contact{
 	background-image: url('../images/contact.png');
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 section.contact h1{
 	color: #fff;
