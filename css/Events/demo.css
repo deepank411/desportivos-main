@@ -156,6 +156,10 @@ a:focus {
 	margin: 0 auto;
 }
 
+ul li{
+	list-style-type: square;
+}
+
 @media screen and (max-width: 50em) {
 	.codrops-header {
 		padding: 3em 10% 4em;
